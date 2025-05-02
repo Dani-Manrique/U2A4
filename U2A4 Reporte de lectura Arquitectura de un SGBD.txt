@@ -1,0 +1,37 @@
+U2A4: Reporte de lectura: Arquitectura de un SGBD
+Paso 1: se busca MYSQL en el navegador, se abre la página y se va a la sección de “Downloads”.
+
+Paso 2: en la pagina se busca y se le da click a “MySQL Community (GPL) Dowloads”
+
+Paso 3: se selecciona el “MySQL Community Server”
+
+Paso 4: en “Select version” selecciona 8.0.41 y pica el botón de “Go to Download Page”
+
+Paso 5: se selecciona la versión de 2.1M para no gastar tanto espacio (esto siempre y cuando estes seguro que cuando uses MYSQL tendrás una buena conexión a internet).
+
+Paso 6: para empezar la descarga sin necesidad de crear una cuenta solo pícale a “No thanks, just start my download”
+
+Paso 7: una vez descargado se le da click derecho al archivo y se le da a la opción de “instalar” para que se empiece a instalar MYSQL.
+
+Paso 8: se elige la opción de custom y se da Next.
+
+Paso 9: se le da a execute y luego a next
+
+Paso 10: se da Next hasta la pantalla en donde se pide elegir una contraseña, en esta se elige una contraseña fácil de recordar y segura y luego se da Next de nuevo.
+
+Paso 11: se da Next y Execute hasta que se abre una pantalla así.
+
+Y así es como se descarga MySQL.
+
+
+
+Conclusión:
+Este documento proporciona una guía clara sobre la instalación y configuración de MySQL Server, así como una introducción a las herramientas más simples de MySQL Workbench. La documentación de estos procesos facilita el uso y administración del sistema por parte de los usuarios.
+
+Nueva consulta SQL:
+Para insertar una nueva categoría y mostrarla después de agregarla.
+INSERT INTO Categories (CategoryName, Description)
+VALUES ('Bebidas nat', 'Jugos y bebidas');
+SELECT TOP 1 *
+FROM Categories
+ORDER BY CategoryID DESC;
